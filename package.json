@@ -1,0 +1,16 @@
+{
+    "name": "pinterest-post-downloader",
+    "version": "1.0.0",
+    "description": "A web app to download Pinterest posts",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "axios": "^0.21.1",
+      "cheerio": "^1.0.0-rc.10",
+      "express": "^4.17.1",
+      "valid-url": "^1.0.9"
+    }
+  }
+  

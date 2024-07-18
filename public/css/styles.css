@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1f1f1f, #3d3d3d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #e0e0e0;
+  }
+  
+  .container {
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+  }
+  
+  .container:hover {
+    transform: translateY(-10px);
+  }
+  
+  .header h1 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #ff4081;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e00068;
+  }
+  
+  #feedback {
+    color: #ff4081;
+    margin-top: 10px;
+  }
+  
+  #result {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #result img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+  }
+  
+  #result img:hover {
+    transform: scale(1.05);
+  }
+  
+  #result a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  #result a:hover {
+    background-color: #e00068;
+  }
+  
